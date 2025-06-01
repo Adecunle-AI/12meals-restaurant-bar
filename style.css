@@ -1,0 +1,99 @@
+/* General Reset and Fonts */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #a8e6cf;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background-color: #6a1b9a;
+  color: #fff;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+header img {
+  max-width: 120px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 5px;
+}
+
+header h2 {
+  font-weight: 400;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #d1c4e9;
+}
+
+/* Navigation */
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 0;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 15px;
+  background-color: #4a148c;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #7b1fa2;
+}
+
+/* Sections */
+section {
+  padding: 50px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+section h2 {
+  color: #4a148c;
+  margin-bottom: 15px;
+}
+
+section p {
+  margin-bottom: 15px;
+}
+
+/* Contact Link */
+section a {
+  color: #4a148c;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+section a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  background-color: #4a148c;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+}
