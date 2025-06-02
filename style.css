@@ -1,4 +1,3 @@
-/* Reset & Base Styles */
 * {
   margin: 0;
   padding: 0;
@@ -12,7 +11,6 @@ body {
   line-height: 1.6;
 }
 
-/* HEADER + NAV STYLES */
 header {
   background-color: #6a1b9a;
   color: white;
@@ -70,20 +68,6 @@ nav a:hover {
   background-color: #7b1fa2;
 }
 
-/* Hamburger Menu (Mobile) */
-.hamburger {
-  display: none;
-  flex-direction: column;
-  gap: 4px;
-  cursor: pointer;
-}
-
-.hamburger div {
-  width: 25px;
-  height: 3px;
-  background-color: white;
-}
-
 @media (max-width: 768px) {
   nav ul {
     display: none;
@@ -102,19 +86,12 @@ nav a:hover {
     display: flex;
   }
 
-  .hamburger {
-    display: flex;
-  }
-}
-
-/* Sections */
 section {
   padding: 60px 30px;
   max-width: 960px;
   margin: auto;
 }
 
-/* Reservation Form Styles */
 #reservationForm {
   display: flex;
   flex-direction: column;
@@ -172,7 +149,6 @@ section p {
   font-size: 1.05rem;
 }
 
-/* Footer */
 footer {
   background-color: #4a148c;
   color: white;
