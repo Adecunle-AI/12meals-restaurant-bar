@@ -68,6 +68,19 @@ nav a:hover {
   background-color: #7b1fa2;
 }
 
+.hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 4px;
+  cursor: pointer;
+}
+
+.hamburger div {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+}
+
 @media (max-width: 768px) {
   nav ul {
     display: none;
