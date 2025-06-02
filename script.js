@@ -14,3 +14,10 @@ if (hour >= 11 && hour <= 23) {
 
 const reservationSection = document.getElementById("reservation");
 reservationSection.appendChild(messageEl);
+
+const hamburger = document.getElementById('hamburger');
+  const navLinks = document.getElementById('navLinks');
+
+  hamburger.addEventListener('click', () => {
+    navLinks.classList.toggle('show');
+  });
