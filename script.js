@@ -21,3 +21,21 @@ const hamburger = document.getElementById('hamburger');
   hamburger.addEventListener('click', () => {
     navLinks.classList.toggle('show');
   });
+
+
+document.getElementById("reservationForm").addEventListener("submit", function(e) {
+  e.preventDefault();
+
+  const name = document.getElementById("name").value.trim();
+  const email = document.getElementById("email").value.trim();
+  const message = document.getElementById("formMessage");
+
+  if (name && email.includes("@")) {
+    message.textContent = "Reservation submitted! We'll contact you soon.";
+    message.style.color = "green";
+  } else {
+    message.textContent = "Please enter a valid name and email.";
+    message.style.color = "red";
+  }
+});
+
