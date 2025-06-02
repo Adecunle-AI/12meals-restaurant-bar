@@ -33,6 +33,7 @@ document.getElementById("reservationForm").addEventListener("submit", function(e
   if (name && email.includes("@")) {
     message.textContent = "Reservation submitted! We'll contact you soon.";
     message.style.color = "green";
+    document.getElementById("reservationForm").reset();
   } else {
     message.textContent = "Please enter a valid name and email.";
     message.style.color = "red";
