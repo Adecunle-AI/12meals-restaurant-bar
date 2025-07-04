@@ -16,7 +16,7 @@ const navLinks = document.getElementById('navLinks');
 
 hamburger.addEventListener('click', () => {
     navLinks.classList.toggle('show');
-    hamburger.classList.toggle('open'); // This line toggles the 'open' class
+    hamburger.classList.toggle('open'); 
 });
 
 const reservationSection = document.getElementById("reservation");
@@ -27,10 +27,10 @@ document.getElementById("reservationForm").addEventListener("submit", function(e
 
     const name = document.getElementById("name").value.trim();
     const email = document.getElementById("email").value.trim();
-    const telephone = document.getElementById("telephone").value.trim(); // Get telephone value
+    const telephone = document.getElementById("telephone").value.trim(); 
     const message = document.getElementById("formMessage");
 
-    if (name && email.includes("@") && telephone) { // Validate telephone as well
+    if (name && email.includes("@") && telephone) {
         message.textContent = "Reservation submitted! We'll contact you soon.";
         message.style.color = "green";
         document.getElementById("reservationForm").reset();
