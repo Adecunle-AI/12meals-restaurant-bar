@@ -8,7 +8,7 @@
 /* Body and Global Typography */
 body {
     font-family: 'Inter', sans-serif; /* Using Inter font */
-    background-color: #f0f2f5; /* Lighter background for contrast */
+    background-color: #e0f7ef; /* Changed to light green */
     color: #333;
     line-height: 1.6;
     scroll-behavior: smooth; /* Smooth scrolling for anchor links */
